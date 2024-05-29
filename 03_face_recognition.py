@@ -10,7 +10,7 @@ faceCascade = cv2.CascadeClassifier(cascadePath);
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 #iniciate id counter
-id1 = 0
+id = 0
 
 # names related to ids: example ==> Marcelo: id=1,  etc
 names = ['Hardik']
@@ -46,7 +46,7 @@ while True:
 
         # Check if confidence is less them 100 ==> "0" is perfect match 
         if (confidence < 100):
-            id = names[id1]
+            id = names[id]
             confidence = "  {0}%".format(round(100 - confidence))
         else:
             id = "unknown"
