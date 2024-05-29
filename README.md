@@ -8,3 +8,7 @@ This project implements face detection with name of the person and training of t
   - The faces generated in the dataset folder will be trained.
   - Add your name in the list (names = ["Hardik", "Sanyam"]) depending on the number of faces trained in the model.
   - Run `03_face_recognition.py` and following output will be displayed on the screen.
+
+## Video Demonstration
+
+[Drive Link](https://drive.google.com/file/d/16XrAyqY2YCtciiqWjKcAoYBRyZY6-tJ3/view?usp=drive_link)
