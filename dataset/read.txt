@@ -1,0 +1,1 @@
+this folder is used to save captured training images, delete this text file before running the face capture script
